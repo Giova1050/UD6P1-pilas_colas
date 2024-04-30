@@ -15,14 +15,14 @@ public class GeneradorAleatorio {
 
     public static String obtenerProductoAleatorio() {
 
-        int productoAleatorio = (int)(Math.random() * (12 - 0) + 0);
+        int productoAleatorio = (int) (Math.random() * (12 - 0) + 0);
 
         return LISTA_PRODUCTOS.get(productoAleatorio);
     }
 
     public static String obtenerNombreAleatorio() {
 
-        int nombreAleatorio = (int)(Math.random() * (20 - 0) + 0);
+        int nombreAleatorio = (int) (Math.random() * (20 - 0) + 0);
 
         return LISTA_NOMBRES.get(nombreAleatorio);
     }
