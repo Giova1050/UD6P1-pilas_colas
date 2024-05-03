@@ -1,16 +1,14 @@
 package net.farmatodo.personal;
 
-import net.farmatodo.clientela.Cliente;
-
 public class Cajero {
     
-    private String nombre;
-    private String id;
+    private String nombreCajero;
+    private int numeroCaja;
     private int horario;
 
-    public Cajero(String nombre, String id, int horario) {
+    public Cajero(String nombre, int numeroCaja, int horario) {
         this.nombre = nombre;
-        this.id = id;
+        this.numeroCaja = numeroCaja;
         this.horario = horario;
     }
 
@@ -34,4 +32,8 @@ public class Cajero {
         
     }
 
+    @Override
+    public String toString() {
+        return "Cajero [nombreCajero=" + nombreCajero + ", numeroCaja=" + numeroCaja + "]";
+    }
 }
