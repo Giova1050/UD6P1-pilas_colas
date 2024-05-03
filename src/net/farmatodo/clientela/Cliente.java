@@ -26,4 +26,8 @@ public class Cliente {
         }
     }
 
+    public static String llamarMetodoAñadirProducto() {
+        return"";
+    }
+
 }
