@@ -15,7 +15,7 @@ public class Cliente {
         this.nombreCLiente = GeneradorAleatorio.obtenerNombreAleatorio();
         this.dni = dni;
         this.cuentaBancaria = cuentaBancaria;
-        this.cesta = añadirProducto();
+        this.cesta = GeneradorAleatorio.obtenerProductoAleatorio();
     }
 
     private void añadirProducto() {
@@ -29,8 +29,8 @@ public class Cliente {
         }
     }
 
-    @Override
-    public String toString() {
-        return "Cliente [nombreCLiente=" + nombreCLiente + ", cesta=" + cesta + "]";
+    public static String llamarMetodoAñadirProducto() {
+        return"";
     }
+
 }

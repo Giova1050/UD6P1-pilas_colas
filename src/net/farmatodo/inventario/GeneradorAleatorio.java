@@ -2,6 +2,7 @@ package net.farmatodo.inventario;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Stack;
 
 public class GeneradorAleatorio {
 
@@ -13,7 +14,7 @@ public class GeneradorAleatorio {
             "Sofía", "Santiago", "Valentina", "Martín", "Isabella", "Juan", "Camila", "Alejandro", "Lucía", "Diego",
             "Valeria", "Mateo", "Natalia", "Andrés", "Emma", "Nicolás", "Victoria", "Daniel", "Gabriela"));
 
-    public static String obtenerProductoAleatorio() {
+    public static Stack<String> obtenerProductoAleatorio() {
 
         int productoAleatorio = (int) (Math.random() * (12 - 0) + 0);
 
