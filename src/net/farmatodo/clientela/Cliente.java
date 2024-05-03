@@ -6,20 +6,23 @@ import net.farmatodo.inventario.GeneradorAleatorio;
 
 public class Cliente {
 
-    private String nombre;
+    private String nombreCLiente;
     private String dni;
     private String cuentaBancaria;
-    private static Stack<String> cesta = new Stack<>();
+    private Stack<String> cesta = new Stack<>();
 
     public Cliente(String nombre, String dni, String cuentaBancaria) {
-        this.nombre = GeneradorAleatorio.obtenerNombreAleatorio();
+        this.nombreCLiente = GeneradorAleatorio.obtenerNombreAleatorio();
         this.dni = dni;
         this.cuentaBancaria = cuentaBancaria;
+        this.cesta = añadirProducto();
     }
 
-    public static void añadirProducto() {
+    private void añadirProducto() {
 
         int numeroTotalProductos = (int) (Math.random() * (15 - 1) + 1);
+
+        Stack<String> cesta = new Stack<>();
 
         for (int i = 0; i < numeroTotalProductos; i++) {
             cesta.push(GeneradorAleatorio.obtenerProductoAleatorio());

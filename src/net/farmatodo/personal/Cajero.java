@@ -1,5 +1,7 @@
 package net.farmatodo.personal;
 
+import net.farmatodo.clientela.Cliente;
+
 public class Cajero {
     
     private String nombre;
