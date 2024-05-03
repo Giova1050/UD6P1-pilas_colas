@@ -29,8 +29,8 @@ public class Cliente {
         }
     }
 
-    public static String llamarMetodoAñadirProducto() {
-        return"";
+    @Override
+    public String toString() {
+        return "Cliente [nombreCLiente=" + nombreCLiente + ", cesta=" + cesta + "]";
     }
-
 }

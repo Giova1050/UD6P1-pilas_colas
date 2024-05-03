@@ -3,12 +3,12 @@ package net.farmatodo.personal;
 public class Cajero {
     
     private String nombreCajero;
-    private String id;
+    private int numeroCaja;
     private int horario;
 
-    public Cajero(String nombre, String id, int horario) {
+    public Cajero(String nombre, int numeroCaja, int horario) {
         this.nombre = nombre;
-        this.id = id;
+        this.numeroCaja = numeroCaja;
         this.horario = horario;
     }
 
@@ -32,4 +32,8 @@ public class Cajero {
         
     }
 
+    @Override
+    public String toString() {
+        return "Cajero [nombreCajero=" + nombreCajero + ", numeroCaja=" + numeroCaja + "]";
+    }
 }
