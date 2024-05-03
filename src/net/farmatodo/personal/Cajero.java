@@ -6,8 +6,8 @@ public class Cajero {
     private int numeroCaja;
     private int horario;
 
-    public Cajero(String nombre, int numeroCaja, int horario) {
-        this.nombre = nombre;
+    public Cajero(String nombreCajero, int numeroCaja, int horario) {
+        this.nombreCajero = nombreCajero;
         this.numeroCaja = numeroCaja;
         this.horario = horario;
     }
