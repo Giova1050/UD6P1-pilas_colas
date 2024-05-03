@@ -12,4 +12,24 @@ public class Cajero {
         this.horario = horario;
     }
 
+    public static void abrirCaja() {
+
+    }
+
+    public static void añadirClienteCola() {
+
+    }
+
+    public static void atenderCliente() {
+
+    }
+
+    public static void clientesPendientes() {
+
+    }
+
+    public static void cerrarSupermercado() {
+        
+    }
+
 }
