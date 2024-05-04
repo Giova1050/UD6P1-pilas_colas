@@ -29,8 +29,13 @@ public class Cliente {
         }
     }
 
-    public static String llamarMetodoAñadirProducto() {
-        return"";
-    }
+<<<<<<<<< Temporary merge branch 1
+    
 
+=========
+    @Override
+    public String toString() {
+        return "Cliente [nombreCLiente=" + nombreCLiente + ", cesta=" + cesta + "]";
+    }
+>>>>>>>>> Temporary merge branch 2
 }

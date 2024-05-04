@@ -1,4 +1,4 @@
-package net.farmatodo.personal;
+package net.hiperdino.personal;
 
 public class Cajero {
     
