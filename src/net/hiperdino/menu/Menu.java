@@ -4,6 +4,8 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
+import net.hiperdino.clientela.Cliente;
+
 public class Menu {
 
     public static void mostrarMenu() {
@@ -43,7 +45,7 @@ public class Menu {
                         System.out.println("La caja se encuentra cerrada");
                     } else {
                     System.out.println("Un cliente salvaje ha aparecido");
-                    colaClientes.add()
+                    colaClientes.add();
                     }
                     break;
                 case "3":
