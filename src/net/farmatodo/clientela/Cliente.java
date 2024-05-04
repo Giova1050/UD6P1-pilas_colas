@@ -15,14 +15,12 @@ public class Cliente {
         this.nombreCLiente = GeneradorAleatorio.obtenerNombreAleatorio();
         this.dni = dni;
         this.cuentaBancaria = cuentaBancaria;
-        this.cesta = GeneradorAleatorio.obtenerProductoAleatorio();
+        this.añadirProducto();
     }
 
-    private void añadirProducto() {
+    public void añadirProducto() {
 
         int numeroTotalProductos = (int) (Math.random() * (15 - 1) + 1);
-
-        Stack<String> cesta = new Stack<>();
 
         for (int i = 0; i < numeroTotalProductos; i++) {
             cesta.push(GeneradorAleatorio.obtenerProductoAleatorio());
