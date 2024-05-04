@@ -1,5 +1,7 @@
-package net.farmatodo.menu;
+package net.hiperdino.menu;
 
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Scanner;
 
 public class Menu {
@@ -10,6 +12,7 @@ public class Menu {
         Boolean caja;
         String abrir;
         String cerrar;
+        Queue<Menu> colaClientes = new LinkedList<>();
 
         System.out.println("""
                 1. Abrir Caja
@@ -21,7 +24,6 @@ public class Menu {
         String menu;
         Boolean bucle = true;
         while (bucle) {
-
             switch (menu) {
                 case "1":
 
@@ -37,7 +39,12 @@ public class Menu {
                     }
                     break;
                 case "2":
-
+                    if (caja = false) {
+                        System.out.println("La caja se encuentra cerrada");
+                    } else {
+                    System.out.println("Un cliente salvaje ha aparecido");
+                    colaClientes.add()
+                    }
                     break;
                 case "3":
 

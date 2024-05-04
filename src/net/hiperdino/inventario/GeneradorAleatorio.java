@@ -1,4 +1,4 @@
-package net.farmatodo.inventario;
+package net.hiperdino.inventario;
 
 import java.util.ArrayList;
 import java.util.Arrays;

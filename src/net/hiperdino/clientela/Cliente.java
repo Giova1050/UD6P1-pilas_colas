@@ -1,8 +1,8 @@
-package net.farmatodo.clientela;
+package net.hiperdino.clientela;
 
 import java.util.Stack;
 
-import net.farmatodo.inventario.GeneradorAleatorio;
+import net.hiperdino.inventario.GeneradorAleatorio;
 
 public class Cliente {
 
